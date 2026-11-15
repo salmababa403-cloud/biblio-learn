@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}À propos - BiblioLearn{% endblock %}
+
+{% block content %}
+
+<h2>À propos de BiblioLearn</h2>
+
+<p>
+    BiblioLearn est une plateforme de bibliothèque
+    et de mini-cours en ligne.
+    Elle permet aux utilisateurs de consulter un catalogue
+    et d'accéder à des ressources pédagogiques.
+</p>
+
+<p>Version : {{ version }}</p>
+
+<a href="{% url 'pages:accueil' %}">Retour à l'accueil</a>
+
+{% endblock %}

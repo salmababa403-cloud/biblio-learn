@@ -1,0 +1,14 @@
+
+# Environnement virtuel
+venv/
+environment_2/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Base de données
+db.sqlite3
+
+# Variables sensibles
+.env
